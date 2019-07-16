@@ -1,0 +1,187 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*MENÚ*/
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 14vh;
+    align-items: center;
+}
+ ul{
+     display: flex;
+     justify-content: flex-end;
+     list-style-type: none;
+ }
+ li{
+    width:  90px;
+ }
+ a{
+     text-decoration: none;
+     color: #55a3b7;
+     margin: 10px;
+ }
+
+/*SECTION 1 - BANNER*/
+.section1{   
+    background-image: url(imagenes/poratada1.jpeg);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 span{
+    color: rgb(238, 229, 229);
+    font-size: 1.7em;
+}
+.section1 p{
+    color: white;
+    font-size: 2.7em;
+    font-weight: bold;
+}
+
+/*SECTION 2 - QUIÉNES SOMOS*/
+.section2{
+    display: flex;
+}
+.somos1{
+    width: 50vw;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px 50px 0px 200px;
+}
+.somos1 h2{
+    margin: 20px 0px;
+    color: #3e4557;
+    font-weight: bold; 
+}
+.parrafo1{
+    margin: 15px 0px;
+    color: #1e6987;
+    font-weight: bold;
+}
+.parrafo2, .section4 p{
+    margin: 15px 0px;
+    color:  #839ba7;
+    font-weight: none;
+}
+.somos2{
+    background-image: url(imagenes/Kamanqa_02.jpg);
+    width: 50vw;
+    height: 65vh;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-content:center;
+    flex-wrap: wrap;
+    padding: 0px 200px 0px 50px;
+}
+.somos2 img {
+    margin-bottom: 30px;
+}
+.parrafo3{
+    color: #839ba7;
+    font-weight: bold;
+}
+
+/*SECTION 3 - SERVICIOS*/
+.section3{
+    background-image: url(imagenes/backgroundreperiblegris.jpg);
+    height: 80vh;
+    padding: 70px 200px 0px;
+}
+.section3 h2 {
+    color: white;
+}
+.servicios{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicios h3{
+    margin: 10px 0px;
+}
+.servicios>article{
+    width: 20vw;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    justify-items: space-around;
+    margin: 25px 25px 20px 0px;
+}
+.servicios h3, .section5 h3{
+    color: white;
+    font-size: 1em;
+}
+.servicios p, .section5 p, footer p{
+    font-size: 14px;
+    color: rgb(235, 235, 235);
+    line-height: 20px;
+}
+
+/*SECTION 4 - GRUPO LA RIAZA*/
+.section4{
+    display: flex;
+}
+.section4 img{
+    width: 50vw;
+    height: 65vh;
+}
+.section4 div{
+    width: 50vw;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px 200px 0px 50px;   
+}
+.section4 h2{
+    margin: 20px 0px;
+    color:#1e6987;
+    font-weight: bold;
+}
+
+/*SECTION 5 - ESCRÍBENOS*/
+.section5{
+    background-image: url(imagenes/backgroundreperibleturqueza.jpg);
+    background-size: cover;
+    padding: 70px 100px;
+}
+.section5 h2{
+    color: white;
+    text-align: center;
+}
+.section5>div{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 30px;   
+}
+.section5>div>div{
+    text-align: center;
+    width: 100%;
+}
+
+/*FOOTER*/
+footer{
+    height: 10vh;
+    background-color: #1e6987;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+
+
+
